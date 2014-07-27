@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D74BEA641984FA1B00F7AC2F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74BEA631984FA1B00F7AC2F /* CoreText.framework */; };
+		D74BEA671984FA7700F7AC2F /* OTGCoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BEA661984FA7700F7AC2F /* OTGCoreTextView.m */; };
+		D74BEA6A1985338D00F7AC2F /* OTGMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BEA691985338D00F7AC2F /* OTGMarkupParser.m */; };
 		D7E19E34196AD872001C4C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E19E33196AD872001C4C2F /* Foundation.framework */; };
 		D7E19E36196AD872001C4C2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E19E35196AD872001C4C2F /* CoreGraphics.framework */; };
 		D7E19E38196AD872001C4C2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E19E37196AD872001C4C2F /* UIKit.framework */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D74BEA631984FA1B00F7AC2F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D74BEA651984FA7700F7AC2F /* OTGCoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTGCoreTextView.h; sourceTree = "<group>"; };
+		D74BEA661984FA7700F7AC2F /* OTGCoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTGCoreTextView.m; sourceTree = "<group>"; };
+		D74BEA681985338D00F7AC2F /* OTGMarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTGMarkupParser.h; sourceTree = "<group>"; };
+		D74BEA691985338D00F7AC2F /* OTGMarkupParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTGMarkupParser.m; sourceTree = "<group>"; };
 		D7E19E30196AD872001C4C2F /* CoreTextMagazine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreTextMagazine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E19E33196AD872001C4C2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7E19E35196AD872001C4C2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D74BEA641984FA1B00F7AC2F /* CoreText.framework in Frameworks */,
 				D7E19E36196AD872001C4C2F /* CoreGraphics.framework in Frameworks */,
 				D7E19E38196AD872001C4C2F /* UIKit.framework in Frameworks */,
 				D7E19E34196AD872001C4C2F /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		D7E19E32196AD872001C4C2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D74BEA631984FA1B00F7AC2F /* CoreText.framework */,
 				D7E19E33196AD872001C4C2F /* Foundation.framework */,
 				D7E19E35196AD872001C4C2F /* CoreGraphics.framework */,
 				D7E19E37196AD872001C4C2F /* UIKit.framework */,
@@ -116,6 +126,8 @@
 				D7E19E43196AD872001C4C2F /* OTGAppDelegate.m */,
 				D7E19E4B196AD872001C4C2F /* Images.xcassets */,
 				D7E19E3A196AD872001C4C2F /* Supporting Files */,
+				D74BEA651984FA7700F7AC2F /* OTGCoreTextView.h */,
+				D74BEA661984FA7700F7AC2F /* OTGCoreTextView.m */,
 				D7E19E68196AD8E4001C4C2F /* OTGMainViewController.h */,
 				D7E19E69196AD8E4001C4C2F /* OTGMainViewController.m */,
 				D7E19E6A196AD8E4001C4C2F /* OTGMainViewController.xib */,
@@ -130,6 +142,8 @@
 				D7E19E3C196AD872001C4C2F /* InfoPlist.strings */,
 				D7E19E3F196AD872001C4C2F /* main.m */,
 				D7E19E41196AD872001C4C2F /* CoreTextMagazine-Prefix.pch */,
+				D74BEA681985338D00F7AC2F /* OTGMarkupParser.h */,
+				D74BEA691985338D00F7AC2F /* OTGMarkupParser.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -253,6 +267,8 @@
 				D7E19E40196AD872001C4C2F /* main.m in Sources */,
 				D7E19E44196AD872001C4C2F /* OTGAppDelegate.m in Sources */,
 				D7E19E6B196AD8E4001C4C2F /* OTGMainViewController.m in Sources */,
+				D74BEA671984FA7700F7AC2F /* OTGCoreTextView.m in Sources */,
+				D74BEA6A1985338D00F7AC2F /* OTGMarkupParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
